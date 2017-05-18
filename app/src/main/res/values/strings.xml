@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Convict Conditioning_Demo</string>
+    <string name="home_page">首 页</string>
+    <string name="music">音 乐</string>
+    <string name="user">我 的</string>
+    <string name="courses_content">教 程</string>
+    <string name="test">测试</string>
+    <string name="lately">最近计划</string>
+    <string name="the_six">六艺专项</string>
+</resources>
