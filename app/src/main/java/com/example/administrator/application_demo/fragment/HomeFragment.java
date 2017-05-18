@@ -7,8 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.administrator.application_demo.R;
 
@@ -19,7 +17,6 @@ import com.example.administrator.application_demo.R;
 public class HomeFragment extends Fragment {
     View view;
     RecyclerView mRecycler;
-    ListView mListView;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -32,6 +29,5 @@ public class HomeFragment extends Fragment {
 
     private void initView() {
         mRecycler = (RecyclerView) view.findViewById(R.id.lately_recycler);
-        mListView = (ListView) view.findViewById(R.id.six_listview);
     }
 }

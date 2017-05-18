@@ -10,13 +10,26 @@
 
         <TextView
             android:id="@+id/top_title"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
+            android:layout_weight="1"
             android:padding="5dp"
             android:text="@string/test"
             android:textColor="#FDBA33"
             android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_edit" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_overflow" />
     </LinearLayout>
 
 </LinearLayout>
